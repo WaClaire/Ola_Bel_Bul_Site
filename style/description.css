@@ -8,6 +8,12 @@
     justify-content: center;
 }
 
+.anim-text{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
 .navBar::after {
 	content: "";
 	clear: both;
@@ -25,14 +31,9 @@ p {
 
 /* header */
 
-.prez {
-	
-} 
-
 .prez p {
-	width: 60%;
 	margin-top: 10px;
-	margin: 70px 0 70px 120px;
+	margin: 0px 40px 50px 40px;
 }
 
 /* .work */
@@ -47,11 +48,10 @@ p {
 	width: 40%;
 }
 
-
 /* header2 */
 
 .header2 {
-	margin: 130px 0 80px 40px;
+	margin: 130px 40px 80px 40px;
 }
 
 /* .work2 */

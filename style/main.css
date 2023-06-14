@@ -316,6 +316,26 @@ margin-bottom: 5%;
     border-radius: 30%;
 }
 
+/****************************** R E M E R C I E M E N T S ******************************/
+
+.remerciement-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.remerciement-titre{
+    display: flex;
+    justify-content: center;
+}
+
+.remerciements{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
 /****************************** F O O T E R ******************************/
 
 .foot-ola {
@@ -401,8 +421,8 @@ margin-bottom: 5%;
 .contenance,
 .anim-text,
 .offre-text,
-.valeur-text
- {
+.valeur-text,
+.remerciement-text {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
 }
@@ -412,7 +432,8 @@ margin-bottom: 5%;
 .titre-saveur,
 .anim-titre,
 .valeurs-titre,
-.offres-titre {
+.offres-titre,
+.remerciement-titre {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 5em;
     text-shadow: 5px 5px rgba(204, 160, 95, 0.8);
